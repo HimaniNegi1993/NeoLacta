@@ -1,0 +1,120 @@
+@media (min-width:1025px) {
+
+/*******************************
+*
+* #body header
+*
+*******************************/
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #9b9898;
+    border-radius: 0;
+    padding-left: 8px;
+}
+
+
+/*******************************
+*
+* #body banner
+*
+*******************************/
+
+.body__banner {
+    margin-bottom: 70px;
+}
+
+
+
+
+/*******************************
+*
+* #body container
+*
+*******************************/
+
+/* about lacto section */
+
+.about__lacto {
+    padding: 0 35px;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+}
+
+.heading_small {
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b2b2b;
+}
+
+.para {
+    color: #474747;
+}
+
+
+/* meet donors section */
+
+.meet__donors {
+    margin-bottom: 85px;
+}
+
+.expert__views {
+    padding: 0 40px;
+}
+
+
+/* expert views section */
+
+
+}
+
+
+
+/* footer */
+
+.main__footer {
+    padding: 55px 100px;
+    flex-direction: column;
+}
+
+.footer__navigation {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__brand {
+    width: 46%;
+    margin-bottom: 20px;
+}
+
+.about__mainland, .responsibility_link {
+    width: 22%;
+}
+
+.business_link, .investors_link {
+    width: 14%;
+}
+
+.about_link {
+    width:13%;
+}
+
+.about__header, .business__header, .investors__header, .responsibility__header  {
+    font-size: 22px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+.about__list, .business__list, .investors__list, .responsibility__list {
+    margin-bottom: 16px;
+}
+
+.sub__footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 100px 3px;
+}

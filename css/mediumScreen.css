@@ -1,0 +1,144 @@
+@media (min-width: 582px) and (max-width: 1024px){
+    
+    .header__topInfo {
+        padding: 8px 15px;
+    }
+
+    .navbar {
+        padding: 5px 15px;
+    }
+
+    .collapse.show {
+        background: #f7f7f7;
+    }
+
+
+/*******************************
+*
+* #body banner
+*
+*******************************/
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-caption {
+    left: 20px;
+    top: 10%;
+    width: 62%;
+    height: auto;
+}
+
+.carousel-caption>h3 {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.carousel-caption>p {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.body__banner {
+    margin-bottom: 40px;
+}
+
+
+/*******************************
+*
+* #body container
+*
+*******************************/
+
+/* about lacto section */
+
+
+.join {
+    display: none;
+}
+
+
+/* meet donors section */
+
+.meet__donors {
+    margin-bottom: 50px;
+}
+
+
+/* expert views section */
+
+
+
+/* footer */
+
+.main__footer {
+    padding: 50px;
+    flex-direction: column;
+}
+
+
+.footer__navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer__brand {
+    width: 25%;
+    margin-bottom: 16px;
+}
+
+.footer__newsletter {
+    margin-bottom: 60px;
+}
+
+.footer__navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about__mainland {
+    width: 100%;
+}
+
+.about_link, .business_link,.investors_link,.responsibility_link {
+    width:45%;
+}
+
+.about__header, .business__header, .investors__header, .responsibility__header  {
+    font-size: 22px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about__list, .business__list, .investors__list, .responsibility__list {
+    margin-bottom: 10px;
+}
+
+.sub__footer {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    padding: 18px 50px 25px 50px;
+}
+
+.sub__copyright {
+    margin-bottom: 14px;
+}
+
+
+
+
+}
+
+
+

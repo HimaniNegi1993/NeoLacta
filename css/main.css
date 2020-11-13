@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600;700&display=swap');
+
+/*******************************
+*
+* #reset values
+*
+*******************************/
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*******************************
+*
+* #body header
+*
+*******************************/
+
+.header__topInfo {
+    color: #f5f5f5;
+    padding: 8px 40px;
+    background: #df6eaa;
+}
+
+/* IE6 and above */
+.header__search {
+    margin-right: -70%;
+}
+
+.contact__info   {
+    max-height: 25px;
+    cursor: pointer;
+}
+
+.contact__link {
+    display: inline;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 20px;
+    line-height: 20px;
+}
+
+.contact__link:last-child {
+    margin-right: 0;
+}
+
+.contact__link>i {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social__info {
+    max-height: 20px;   
+}
+
+.social__list {
+    display: inline;
+    margin-right: 14px;
+}
+
+.social__list:last-child {
+    margin-right: 0;
+}
+
+.social__link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    transition: all ease 1s;
+}
+
+.social__link:hover {
+    color: #7255a0;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+    transition: all ease 1s;
+}
+
+.navbar {
+    padding: 8px 40px;
+}
+
+.form-inline {
+    position: relative;
+}
+
+.search {
+    position: absolute;
+    right: 8px;
+    top: 9px;
+    color: #df6eaa;
+    cursor: pointer;
+}
+
+.nav-item {
+    margin: 0 7px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #df6eaa;
+}
+
+
+
+
+/*******************************
+*
+* #body banner
+*
+*******************************/
+
+.carousel {
+    height: 84vh;
+}
+
+.carousel-indicators>li{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin: 4px;
+}
+
+.carousel-indicators>li.active {
+    width: 25px;
+    border-radius: 12px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-control-prev {
+    width: 48px;
+	height: 48px;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 50%;
+    bottom: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+    box-shadow: 3px 3px 20px rgb(145, 145, 145);    
+    z-index: 9;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../image/prev-arrow.svg');
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-control-next {
+    width: 48px;
+	height: 48px;
+	background-color: #fff;
+	border-radius: 50%;
+	top: 50%;
+    bottom: 50%;
+    transform: translate(0, -50%);
+    box-shadow: 3px 3px 20px rgb(145, 145, 145);   
+    right: 2%;
+    left: auto;
+    z-index: 9;
+}
+
+.carousel-control-next-icon {
+    background-image: url('../image/next-arrow.svg');
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 9;
+    color: #000;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 36%;
+    height: 38%;
+    padding: 25px 15px 20px 25px;
+    border-radius: 2px;
+}
+
+.carousel-caption>h3 {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 36px;
+}
+
+.carousel-caption>p {
+    color: #555555;
+    font-size: 16px;
+    letter-spacing: .4px;
+    line-height: 23px;
+    margin-bottom: 36px;
+}
+
+.readmore__link {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px 18px;
+    border-radius: .3rem;
+    transition: all ease 1s;
+    background-image: linear-gradient(to right,#3c1053,#ad5389);
+    width: 130px;
+}
+
+.readmore__link:hover {
+    transition: all ease 1s;
+    cursor: pointer;
+    box-shadow: 0px 3px 8px #fa4817ad;
+}
+
+
+/*******************************
+*
+* #body container
+*
+*******************************/
+
+/* about lacto section */
+
+.about__lacto {
+    margin-bottom: 70px;
+}
+
+
+/* meet donors section */
+
+.back__donor {
+    background: #df6eaa;
+    height: 365px;
+}
+
+.heading.donor {
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.back__donor {
+    padding: 30px 40px 0px;
+}
+
+
+/* expert views section */
+
+.donor__form {
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    padding: 40px 0;
+    border-radius: 5px;
+}
+
+
+.para.form {
+    padding: 0 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__details {
+    padding: 20px;
+}
+
+.input__edit {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+}
+
+.card-img-top {
+    max-height: 280px;
+}
+
+
+.readmore__link.donor {
+    width: 95%;
+    margin: 0 auto;
+
+}
+
+.tacbox {
+    display:block;
+    padding: .6em;
+    margin: 1.5em 1em;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+  }
+
+
+
+
+/*******************************
+*
+* #body footer
+*
+*******************************/
+
+
+/************ #main footer ***************/
+
+.main__footer {
+    background: #df6eaa;
+    display: flex;
+}
+
+
+/*************** footer navigation *******************/
+
+.footer__navigation {
+    display: flex;
+    color: #fff;
+}
+
+.about__mainland p {
+    color: #fff;
+    line-height: 28px;
+}
+
+.about__header, .business__header, .investors__header, .responsibility__header {
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.6px;
+    font-weight: 900;
+}
+
+.about__link, .business__link, .investors__link, .responsibility__link {
+    text-transform: capitalize;
+    color: #f0f0f0;
+    letter-spacing: 0.6px;
+}
+
+.about__link:hover, .business__link:hover, .investors__link:hover, .responsibility__link:hover {
+    color: #eb5e0f;
+    text-decoration: underline;
+}
+
+
+/************************ sub footer ***************************/
+
+.sub__footer {
+    background: #a14b7f;
+    color: #fff;
+    /* display: flex; */
+}
+
+.sub__copyright {
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+}
+

@@ -1,0 +1,115 @@
+@media (max-width:581px) {
+
+    .header__topInfo {
+        padding: 8px 15px;
+    }
+
+    .navbar {
+        padding: 5px 15px;
+    }
+
+    .collapse.show {
+        background: #f7f7f7;
+    }
+
+
+
+/*******************************
+*
+* #body banner
+*
+*******************************/
+
+.carousel {
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    display: none;
+}
+
+.carousel-caption {
+    display: none;
+}
+
+.body__banner {
+    margin-bottom: 40px;
+}
+
+
+/*******************************
+*
+* #body container
+*
+*******************************/
+
+/* about lacto section */
+
+
+.join {
+    display: none;
+}
+
+
+/* meet donors section */
+
+.meet__donors {
+    margin-bottom: 50px;
+}
+
+
+/* expert views section */
+
+
+
+/* footer */
+
+.main__footer {
+    padding: 40px 15px;
+    flex-direction: column-reverse;
+}
+
+.footer__navigation {
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.footer__brand {
+    width: auto;
+    margin-bottom: 16px;
+}
+
+.about__mainland p {
+    line-height: 24px; 
+    margin-bottom: 20px;
+}
+
+.about__header, .business__header, .investors__header, .responsibility__header  {
+    font-size: 22px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.about__list, .business__list, .investors__list, .responsibility__list {
+    margin-bottom: 12px;
+}
+
+.sub__footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+.about__mainland,.about_link,.business_link,.responsibility_link {
+    width: 100%;
+}
+
+
+}
+
+
